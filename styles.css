@@ -1,0 +1,135 @@
+/* "StAuth10244: I Ramel Mirza, 000778681 certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else." */
+
+body
+{
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(0, 128, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 5px rgb(0, 0, 0, 1);
+    background-color: white;
+    margin-top: 25px;
+    height: 150px;
+    width: 100px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.pulled-card
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.3);
+    height: 150px;
+    width: 100px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.rank
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.suit
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.listed-cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.no-more-cards
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.3);
+    height: 150px;
+    width: 100px;
+    margin: 10px auto;
+}
+
+.notify
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 30px;
+}
+
+
+/* Note: I took this button template from: https://getcssscan.com/css-buttons-examples on button # 74*/
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.buttons2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
